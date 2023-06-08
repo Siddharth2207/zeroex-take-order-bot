@@ -1,3 +1,25 @@
 [
-    
-]
+    {
+      "owner": "0x53AB61eE41FA202227Eb4e7B176208FC626DC8A9",
+      "handleIO": true,
+      "evaluable": {
+        "interpreter": "0xE82Ec43bd3E516878C6dF2088E769A02c04984A7",
+        "store": "0xEFCA12B267787Ab70961D8150B6BdC2Ed14e9Ed3",
+        "expression": "0x4A050e7799eed2f6073eBA02d10C511A39a9bd21"
+      },
+      "validInputs": [
+        {
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "decimals": 6,
+          "vaultId": "0x406c72a303ccd9d5c3c46876722209ce70dddcc2d70757593c71b57f83f0d442"
+        }
+      ],
+      "validOutputs": [
+        {
+          "token": "0x84342e932797FC62814189f01F0Fb05F52519708",
+          "decimals": 18,
+          "vaultId": "0x406c72a303ccd9d5c3c46876722209ce70dddcc2d70757593c71b57f83f0d442"
+        }
+      ]
+    }
+  ]
