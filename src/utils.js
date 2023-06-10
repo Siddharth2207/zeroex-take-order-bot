@@ -158,7 +158,7 @@ exports.interpreterEval = async(
             ],
             [
                 // input context column 
-                order.validInputs[inputIndex].address, 
+                order.validInputs[inputIndex].token, 
                 order.validInputs[inputIndex].decimals, 
                 order.validInputs[inputIndex].vaultId, 
                 inputBalance, 
@@ -166,7 +166,7 @@ exports.interpreterEval = async(
             ], 
             [
                 // output context column 
-                order.validOutputs[outputIndex].address, 
+                order.validOutputs[outputIndex].token, 
                 order.validOutputs[outputIndex].decimals, 
                 order.validOutputs[outputIndex].vaultId, 
                 outputBalance, 
