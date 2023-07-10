@@ -19,7 +19,8 @@
   "scripts": {
     "lint": "eslint ./src ./arb-bot.js",
     "lint-fix": "eslint ./src ./arb-bot.js --fix",
-    "test": "echo \"no test specified at the moment!\""
+    "test": "echo \"no test specified at the moment!\"" ,
+    "start" : "node arb-bot --orderbook-address 0x2f49388eaee31162f6e02185885af661dc85af7e --arb-address 0x4af2db72f095ea36790c2c5d6ccfc9f8ac2cf886"
   },
   "dependencies": {
     "ajv": "^8.12.0",
